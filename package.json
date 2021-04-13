@@ -5,7 +5,7 @@
     "main": "dist/index.html",
     "scripts": {
         "start": "parcel index.html",
-        "build": "parcel build index.html --public-url https://msponting.github.io/info474-sp21/; rm -rf docs; mv dist docs;",
+        "build": "parcel build index.html --public-url https://msponting.github.io/react-parcel-starter/; rm -rf docs; mv dist docs;",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Michelle Ponting",

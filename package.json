@@ -1,16 +1,18 @@
 {
-  "name": "parcel-react-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Michelle Ponting",
-  "license": "ISC",
-  "dependencies": {
-    "parcel": "*",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "name": "parcel-react-starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.html",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html --public-url https://msponting.github.io/info474-sp21/; rm -rf docs; mv dist docs;",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Michelle Ponting",
+    "license": "ISC",
+    "dependencies": {
+        "parcel": "*",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
 }

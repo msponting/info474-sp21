@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="92453be2c32f6f8db0a8de1b50e2b36a"></script>
+    <script src="ec6b7476536dc1d48fca284fac17c2e6"></script>
+    <script src="d5108b6a011ad10661ebfa89a9d22f51"></script>
+    <script src="0b3ddb09721b94888605cb5f98887ffe"></script>
+    <title>React Parcel Starter</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="5d0d69350c1c0086495808fc3d7073c4"></script>
+    <div id="view"></div>
+    <p>help</p>
+</body>
+
+</html>
